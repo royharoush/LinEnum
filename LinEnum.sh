@@ -6,7 +6,7 @@ v="version 0.5 (experimental)"
 #help function
 usage () 
 { 
-echo -e "\n\e[00;31m#########################################################\e[00m" 
+echo -e "\##########################################################\e[00m" 
 echo -e "\e[00;31m#\e[00m" "\e[00;33mLocal Linux Enumeration & Privilege Escalation Script\e[00m" "\e[00;31m#\e[00m"
 echo -e "\e[00;31m#########################################################\e[00m"
 echo -e "\e[00;33m# www.rebootuser.com\e[00m"
@@ -35,7 +35,7 @@ while getopts "h:k:r:e:t" option; do
  esac
 done
 
-echo -e "\n\e[00;31m#########################################################\e[00m" |tee -a $report 2>/dev/null
+echo -e "##########################################################\e[00m" |tee -a $report 2>/dev/null
 echo -e "\e[00;31m#\e[00m" "\e[00;33mLocal Linux Enumeration & Privilege Escalation Script\e[00m" "\e[00;31m#\e[00m" |tee -a $report 2>/dev/null
 echo -e "\e[00;31m#########################################################\e[00m" |tee -a $report 2>/dev/null
 echo -e "\e[00;33m# www.rebootuser.com\e[00m" |tee -a $report 2>/dev/null
